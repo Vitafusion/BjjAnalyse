@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "document()\n\nt[,2] <- as.numeric(t[,2])\nbarplot(table(dat$age),ylim = c(0,60))\n\naxis(1,seq(from=0.7,by=1.2,length.out=5),labels=c(\"18-25\",\"26-30\",\"31-40\",\"above 40\",\"under 18\"),tick = FALSE,cex.axis=0.75)\nbarplot(x,main = \"age frequency graph\",ylim = c(0,60))\naxis(1,seq(from=0.7,by=1.2,length.out=7),labels=c(\"18-25\",\"26-30\",\"31-40\",\"above 40\",\"under 18\"),tick = FALSE,cex.axis=0.75)\n\n\n\n\n####Example: People might want to know the injure rate of this kind of sport.We can use inj_rate()\n```{r}\ninj_rate(dat)\n```\n\n\n#' get permission of googlesheets\n#' @import googlesheets\n#' @export\n#'\n\n\nauthoriz <- function()\n{\n  gs_ls()\n}",
+    "created" : 1507254888490.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "1020392011",
+    "id" : "A7D5AF42",
+    "lastKnownWriteTime" : 0,
+    "last_content_update" : -2147483648,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,67 @@
+---
+title: "bjjanalyse"
+author: "Zhengzhi Lin"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+####Motivation
+I am always a big fan of jiu-jitsu,a special martial art. Nowadays, jiu-jitsu is still at its beginning of spreading in China. Still very few people know it , let alone train it. Everything is like chaos, because jiu-jitsu just grows agressively, I have a strong feeling it will furish in China as well as Tae koon doo, another martial art travelled from Korea. Therefore, I think it is a good time to collect some data and record this time. I need to know these people's age, gender,etc. Information about what kind of people they are, how many times they train a week.....
+And I have a sense that in China, jiu-jitsu is kind of exclusive to certain groups of people, who have high salary, are young and not busy working, love martial arts, be willing to train for a long time. I hope I can prove my guess  through my package and my data, though they are not complete yet.
+
+####The data I collect
+I collect the data of jiu-jitsu trainers. It includes their age(under 18,18 to 25  etc), gender, how long they've been training(1 year or 1.5 year), their money spent on jiu-jitsu(for example 8000 Chinese yuan per year), and their training frequency(for instance, 1 to 3 times a week or 3 to 5 times a week),
+competition plan(for example, 1 times a year).
+
+####Where I get the data?
+I use a popular China websit to create a survey form and send it to as many jiu-jitsu groups as I can.
+
+#### Survey link：https://www.wjx.cn/jq/16656266.aspx
+
+####What is this package for?
+This packge is created for plotting information in the jiu-jitsu data, and doing some caculations with the data. It deals with a lot variables in the data collected by the survey.
+
+By using this package, we can easily get data from googlesheets through a single function. We can also use simplified function building some dataframe and analyse special parts of data, rather than using repetitions or create functions temporarily.
+
+We can also use one function to caculate the mean of money spend per year. Getting injure rate of this sport.
+
+As time move on, I will keeping adding new abilities for this package.
+
+####First, we should ask googlesheets permission code.
+```{r,message=FALSE}
+library(BjjAnalyse)
+authoriz()
+```
+
+####Examples:Import data from googlesheets
+
+```{r,message=FALSE}
+library(knitr)
+dat <- read_data()
+kable(dat[1:10,1:10])
+```
+
+####Example: plot a graph about age and trainning frequency
+
+```{r}
+library(BjjAnalyse)
+age_freq(dat$age)
+```
+
+####Example: People might want to know the injure rate of this kind of sport.We can use inj_rate()
+
+```{r}
+inj_rate(dat)
+
+```
+
+####Example: If I want to know the average amount money of each location,I can use loc_mean() function.
+
+```{r}
+library(BjjAnalyse)
+loc_mean(dat)[1:5]
+```
