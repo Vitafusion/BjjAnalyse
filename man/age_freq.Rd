@@ -7,10 +7,7 @@
 age_freq(x)
 }
 \arguments{
-\item{x}{an object}
-}
-\value{
-k a plot
+\item{x}{a dataframe}
 }
 \description{
 plot age&frequency data

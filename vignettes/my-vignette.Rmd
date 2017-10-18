@@ -49,7 +49,7 @@ kable(dat[1:10,1:10])
 
 ```{r}
 library(BjjAnalyse)
-age_freq(dat$age)
+age_freq(dat)
 ```
 
 ####Example: People might want to know the injure rate of this kind of sport.We can use inj_rate()
