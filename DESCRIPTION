@@ -3,10 +3,10 @@ Title: Analyse information data  of jiu-jitsu trainners in China
 Version: 0.0.1.9000
 Authors@R: person("Alex", "Lin", email = "linzhengzhizz@163.com", role = c("aut", "cre"))
 Description: This package uses a data collection that contains:
-              sex,age,occupation,location,money spend per year, self and coach's belt rank, training frequency, competition plan...
-              This package is supposed to analyse a collection of data about Chinese jiu-jitsu trainners.
-              For example, the functions in this package will show  how many money they spend on this sport and the differences between different locations,how old are they,what is their belt rank and their coaches' rank, do they take competitions?. The data is collected via a internet suervey.
-              Functions in this package can plot a graph about age and trainning frequency, calculate injure rate,mean of money spending per year.
+            sex,age,occupation,location,money spend per year, self and coach's belt rank, training frequency, competition plan...
+            This package is supposed to analyse a collection of data about Chinese jiu-jitsu trainners.
+            For example, the functions in this package will show  how many money they spend on this sport and the differences between different locations,how old are they,what is their belt rank and their coaches' rank, do they take competitions?. The data is collected via a internet suervey.
+            Functions in this package can plot a graph about age and trainning frequency, calculate injure rate,mean of money spending per year.
 Depends: R (>= 3.4.1)
 License: CC0
 Encoding: UTF-8
