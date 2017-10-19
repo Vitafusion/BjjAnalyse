@@ -37,7 +37,7 @@ library(BjjAnalyse)
 authoriz()
 ```
 
-#### Examples:Import data from googlesheets
+#### Examples: Get collection of data from googlesheets, and put it in object dat.
 
 ```{r,message=FALSE}
 library(knitr)
@@ -45,7 +45,7 @@ dat <- read_data()
 kable(dat[1:10,1:10])
 ```
 
-#### Example: plot a graph about age and trainning frequency
+#### Example: plot a hist graph about age and trainning frequency by using age_freq().
 
 ```{r}
 library(BjjAnalyse)
