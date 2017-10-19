@@ -7,7 +7,7 @@
 read_data()
 }
 \value{
-an object bjjdata
+bjjdata a dataframe
 }
 \description{
 read googlesheets data

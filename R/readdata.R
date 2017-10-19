@@ -1,5 +1,5 @@
 #' read googlesheets data
-#' @return an object bjjdata
+#' @return bjjdata a dataframe
 #' @import googlesheets
 #' @export
 
