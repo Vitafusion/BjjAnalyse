@@ -66,4 +66,10 @@ library(BjjAnalyse)
 loc_mean(dat)[1:5]
 ```
 
-#### Example:
+#### Example: Get a pie graph of the percentage of each belt rank of self rank in all, in the example we can see for instance, people who is white belt is 69.51% of all.
+
+```{r}
+library(BjjAnalyse)
+self_rank(dat)
+
+```
