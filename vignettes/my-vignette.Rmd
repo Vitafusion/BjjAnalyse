@@ -12,7 +12,8 @@ vignette: >
 #### Motivation
 I am always a big fan of jiu-jitsu,a special martial art. Nowadays, jiu-jitsu is still at its beginning of spreading in China. Still very few people know it , let alone train it. Everything is like chaos, because jiu-jitsu just grows agressively, I have a strong feeling it will furish in China as well as Tae koon doo, another martial art travelled from Korea. Therefore, I think it is a good time to collect some data and record this time. I need to know these people's age, gender,etc. Information about what kind of people they are, how many times they train a week.....
 And I have a sense that in China, jiu-jitsu is kind of exclusive to certain groups of people, who have high salary, are young and not busy working, love martial arts, be willing to train for a long time. I hope I can prove my guess  through my package and my data, though they are not complete yet.
-
+#### what I want to learn
+I want to learn the mean age of jiujitsu trainner in China, thus I use sample to estimate it. I also use the sample injure rate to represent population injure rate.I calculate mean spending of each place in my sample to learn how much people spend in jiujitsu in different places.
 #### The data I collect
 I collect the data of jiu-jitsu trainers. It includes their age(under 18,18 to 25  etc), gender, how long they've been training(1 year or 1.5 year), their money spent on jiu-jitsu(for example 8000 Chinese yuan per year), and their training frequency(for instance, 1 to 3 times a week or 3 to 5 times a week),
 competition plan(for example, 1 times a year).
