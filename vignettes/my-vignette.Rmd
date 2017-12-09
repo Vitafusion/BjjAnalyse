@@ -17,11 +17,12 @@ I want to learn the mean age of jiujitsu trainner in China, thus I use sample to
 #### The data I collect
 I collect the data of jiu-jitsu trainers. It includes their age(under 18,18 to 25  etc), gender, how long they've been training(1 year or 1.5 year), their money spent on jiu-jitsu(for example 8000 Chinese yuan per year), and their training frequency(for instance, 1 to 3 times a week or 3 to 5 times a week),
 competition plan(for example, 1 times a year).
-
 #### Where I get the data?
 I use a popular China websit to create a survey form and send it to as many jiu-jitsu groups as I can.
 
 #### Survey link：https://www.wjx.cn/jq/16656266.aspx
+
+#### Experimental Design: Nowadays, not many people in China know jiu-jitsu, most of our trainners are concentrated in well developed cities, like Shanghai, Chengdu, Beijing....So I think my data is representative because I collected this data from many big famous jiu-jitsu clubs in those cities. Besides, I also collect data from smaller cities such as Wenzhou....I only ask people simple questions so that they can answer easily with yes, or no or some certain number. Thus I think my measure is valid. OK I take my words back, this is my first time making survey and analyses data, I am not sure how to use my statistical method to my data..My data is not so randomized because I only send survey to certain clubs. And the potential confront would be that I did not send my survey to a better representative group, I only let my friends send it to others as possible as they can, I am not sure they did it or not.
 
 #### What is this package for?
 This packge is created for plotting information in the jiu-jitsu data, and doing some caculations with the data. It deals with a lot variables in the data collected by the survey.

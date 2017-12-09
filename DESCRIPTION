@@ -1,6 +1,6 @@
 Package: BjjAnalyse
 Title: Analyse information data  of jiu-jitsu trainners in China
-Version: 0.1.6.0002
+Version: 0.1.6.0003
 Authors@R: person("Alex", "Lin", email = "linzhengzhizz@163.com", role = c("aut", "cre"))
 Description: This package uses a data collection that contains:
             sex,age,occupation,location,money spend per year, self and coach's belt rank, training frequency, competition plan...
