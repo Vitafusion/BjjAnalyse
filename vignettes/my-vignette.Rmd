@@ -75,3 +75,5 @@ library(BjjAnalyse)
 self_rank(dat)
 
 ```
+#### Results of my analysis: In China jiu-jitsu is a kind of expensive sports, people cost more than 8000 chinese Yuan per year even in poor province like anhui, hebei. Most of jiu-jitsu trainers in China are freshmen. Jiu-jitsu is dangerous, trainers have high risk to get injured. Jiu-jitsu is not a friendly sport towards old people. old people tend to train much less than youngers.
+
