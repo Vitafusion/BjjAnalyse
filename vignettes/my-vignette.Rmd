@@ -80,3 +80,5 @@ self_rank(dat)
 
 
 #### What I learned from this homework and my limitations: I learned how to use version control to develop my package in a long period. However, I am still not good at git, I need more practices. The limitation of my analysis is that the data is ralatively small and my data-collect-way is not very formal, both lead to a limited conclusion of my analysis, and it is also hard to draw more complex things out of my data. My analysis is very simple and doesn't contain many useful estimators like variance. I could perform a linear regression on my data, that might make my analysis more complete. However the reason I didn't do that is that I didn't think it will make sense to do a linear regression to my data.
+
+#### What will I do differently next time. I will use more ways of statistical methods, such as t-test, linear regression, which is what I just learned this semester. About data collecting, I will try to collect data that can be expressed in numbers, like age, height, not some yes or no data.
